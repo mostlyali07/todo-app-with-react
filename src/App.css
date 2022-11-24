@@ -1,7 +1,32 @@
-body{
+body {
   background-color: #212121;
-  text-align: center;
 }
-.notes{
+.notes {
   width: 120px;
+}
+figcaption {
+  color: #fff;
+  font-family: "Varela Round", sans-serif;
+  font-size: 26px;
+}
+h3 {
+  color: #212121;
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+label {
+  color: rgb(0, 0, 0);
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+}
+.eachItems {
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 6px 6px 6px;
+}
+.fa-trash:hover{
+  color: red;
 }
