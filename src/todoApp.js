@@ -40,7 +40,7 @@ const TodoApp = () => {
 
               <div className="showItems">
                 <div className="eachItems">
-                  <h3>Shantu</h3>
+                  <h3>Add Something</h3>
                   <i className="fa-solid fa-trash"></i>
                 </div>
               </div>
