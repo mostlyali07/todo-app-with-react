@@ -1,18 +1,13 @@
-import React from "react";
-import Upperimg from "./notes.png";
+import React from 'react';
+import './App.css';
+import Todo from './todoApp'
 
-const TodoApp = () => {
+function App() {
   return (
     <>
-      <div className="main-div">
-        <div className="child-div">
-          <figure>
-            <img src={Upperimg} alt="" />
-          </figure>
-        </div>
-      </div>
+    <Todo />
     </>
   );
-};
+}
 
-export default TodoApp;
+export default App;
